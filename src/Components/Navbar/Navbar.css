@@ -1,0 +1,40 @@
+.brand-name {
+    color: hsl(233, 12%, 13%);
+    font-weight: bold;
+}
+.logo-b {
+    transform: scale(.9);
+    margin-top: 5px;
+}
+.nav-coll {
+    margin-left: .6rem;
+}
+.login-btn {
+    width:fit-content;
+    padding: 7px 35px;
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+    border-radius: 5px;
+}
+
+@media (min-width:1025px) { 
+    .con{
+        width: 70%;
+    }
+    .nav-container {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-item {
+        font-size: .9rem;
+        vertical-align: middle;
+        margin-right: 20px;
+        text-align: center;
+    }
+    .login-btn {
+        padding: 8px 20rem;
+        width: 7rem;
+        box-shadow: 0px 0px 5px hsla(231, 69%, 60%, 0.322);
+    }
+ }
